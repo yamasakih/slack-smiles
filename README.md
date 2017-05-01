@@ -1,2 +1,9 @@
 # slack-smiles
-convert smiles key to chemical structure image in slack
+化学構造のsmilesキーを投げるとその化学構造のpng形式の画像を返してくれるSLACK Botです。
+
+# 将来
+SVGも返したいけど、SLACKではSVGは表示してくれずDownloadになってしまう。
+引数でPNGとSVGのどちらで出力するか制御したい。
+
+複数のSMILESキーを投げると重ね合わせをした後別々のファイルとして保存してくれるようにしたい。
+重ね合わせを一度することでパワーポイントなどで並べて表示するときれいにみえる。
